@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { data } from './Navbar';
 
 const Footer = () => {
+  const safeData = Array.isArray(data) ? data : [];
+
   return (
     <footer className='max-w-6xl mx-auto px-4 mt-4 border-t border-primary pt-6 my-4'>
       <main className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 md:gap-8'>
@@ -19,7 +21,7 @@ const Footer = () => {
         <div className='flex flex-col  gap-4'>
           <h1 className='text-2xl font-bold text-primary'>Socials Links</h1>{' '}
           <div className='flex flex-col gap-4 border-b md:border-none'>
-            {data.map((item) => {
+            {safeData.map((item) => {
               const { id, link, title } = item;
               return (
                 <Link
