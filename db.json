@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Spaghetti Carbonara",
       "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
       "ingredients": [
@@ -14,7 +14,7 @@
       "instructions": "Cook spaghetti al dente. Fry bacon until crispy. Whisk eggs with Parmesan cheese and black pepper. Toss spaghetti with bacon and egg mixture. Serve immediately."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Chicken Stir-Fry",
       "image": "https://cdn.dummyjson.com/recipe-images/2.webp",
       "ingredients": [
@@ -28,21 +28,31 @@
       "instructions": "Cut chicken into small pieces. Stir-fry chicken with vegetables. Add soy sauce, ginger, and garlic. Serve with rice."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Chocolate Chip Cookies",
       "image": "https://cdn.dummyjson.com/recipe-images/3.webp",
-      "ingredients": ["Flour", "Sugar", "Butter", "Eggs", "Chocolate Chips"],
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Eggs",
+        "Chocolate Chips"
+      ],
       "instructions": "Cream together butter and sugar. Beat in eggs. Stir in flour and chocolate chips. Drop by spoonfuls onto baking sheets. Bake until golden brown."
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Grilled Cheese Sandwich",
       "image": "https://cdn.dummyjson.com/recipe-images/4.webp",
-      "ingredients": ["Bread", "Butter", "Cheese"],
+      "ingredients": [
+        "Bread",
+        "Butter",
+        "Cheese"
+      ],
       "instructions": "Butter the bread. Place cheese between two slices of bread. Grill until golden and crispy."
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Caesar Salad",
       "image": "https://cdn.dummyjson.com/recipe-images/5.webp",
       "ingredients": [
@@ -54,7 +64,7 @@
       "instructions": "Toss lettuce with Caesar dressing. Add croutons and Parmesan cheese. Serve chilled."
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Chicken Tacos",
       "image": "https://cdn.dummyjson.com/recipe-images/6.webp",
       "ingredients": [
@@ -68,14 +78,20 @@
       "instructions": "Cook chicken and shred it. Fill taco shells with chicken and toppings. Serve with sour cream."
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Pancakes",
       "image": "https://cdn.dummyjson.com/recipe-images/7.webp",
-      "ingredients": ["Flour", "Sugar", "Eggs", "Milk", "Baking Powder"],
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Milk",
+        "Baking Powder"
+      ],
       "instructions": "Mix ingredients into a batter. Cook on a hot griddle until golden brown. Serve with syrup."
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Vegetable Soup",
       "image": "https://cdn.dummyjson.com/recipe-images/8.webp",
       "ingredients": [
@@ -88,35 +104,56 @@
       "instructions": "Chop vegetables and simmer in broth until tender. Serve warm."
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Beef Stew",
       "image": "https://cdn.dummyjson.com/recipe-images/9.webp",
-      "ingredients": ["Beef", "Potatoes", "Carrots", "Onions", "Beef Broth"],
+      "ingredients": [
+        "Beef",
+        "Potatoes",
+        "Carrots",
+        "Onions",
+        "Beef Broth"
+      ],
       "instructions": "Brown beef in a pot. Add vegetables and broth. Simmer until tender."
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Apple Pie",
       "image": "https://cdn.dummyjson.com/recipe-images/10.webp",
-      "ingredients": ["Apples", "Sugar", "Cinnamon", "Pie Crust"],
+      "ingredients": [
+        "Apples",
+        "Sugar",
+        "Cinnamon",
+        "Pie Crust"
+      ],
       "instructions": "Fill pie crust with apples and sugar. Bake until crust is golden brown."
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "BBQ Ribs",
       "image": "https://cdn.dummyjson.com/recipe-images/11.webp",
-      "ingredients": ["Ribs", "BBQ Sauce", "Garlic Powder", "Paprika"],
+      "ingredients": [
+        "Ribs",
+        "BBQ Sauce",
+        "Garlic Powder",
+        "Paprika"
+      ],
       "instructions": "Season ribs with spices and BBQ sauce. Bake until tender."
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Lemon Meringue Pie",
       "image": "https://cdn.dummyjson.com/recipe-images/12.webp",
-      "ingredients": ["Lemon", "Sugar", "Egg Whites", "Pie Crust"],
+      "ingredients": [
+        "Lemon",
+        "Sugar",
+        "Egg Whites",
+        "Pie Crust"
+      ],
       "instructions": "Make lemon filling and pour into pie crust. Top with meringue and bake."
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Vegetarian Pizza",
       "image": "https://cdn.dummyjson.com/recipe-images/13.webp",
       "ingredients": [
@@ -129,14 +166,20 @@
       "instructions": "Roll out dough. Top with sauce, cheese, and vegetables. Bake until golden."
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Fish Tacos",
       "image": "https://cdn.dummyjson.com/recipe-images/14.webp",
-      "ingredients": ["Fish", "Taco Shells", "Lettuce", "Tomato", "Lime"],
+      "ingredients": [
+        "Fish",
+        "Taco Shells",
+        "Lettuce",
+        "Tomato",
+        "Lime"
+      ],
       "instructions": "Cook fish. Fill taco shells with fish and toppings. Serve with lime wedges."
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Baked Ziti",
       "image": "https://cdn.dummyjson.com/recipe-images/15.webp",
       "ingredients": [
@@ -146,6 +189,20 @@
         "Ground Beef"
       ],
       "instructions": "Cook ziti and mix with sauce and cheese. Bake until golden."
+    }
+  ],
+  "users": [
+    {
+      "id": "a787",
+      "name": "Ahmad",
+      "email": "ahmadeveloper077@gmail.com",
+      "password": "ahmadeveloper077@gmail.com"
+    },
+    {
+      "id": "9833",
+      "name": "shakeel",
+      "email": "shakeel7521951@gmail.com",
+      "password": "shakeel7521951@gmail.com"
     }
   ]
 }

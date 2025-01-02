@@ -9,7 +9,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 
-const data = [
+export const data = [
   { id: 4, link: '/', title: 'Home' },
   {
     id: 1,

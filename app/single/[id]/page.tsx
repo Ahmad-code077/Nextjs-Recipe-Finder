@@ -10,7 +10,7 @@ const SingleRecipe: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>('');
   const { id } = useParams();
-
+  const NumId = Number(id);
   useEffect(() => {
     if (!id) return;
     const fetchRecipe = async () => {
@@ -21,9 +21,7 @@ const SingleRecipe: React.FC = () => {
           throw new Error('Failed to fetch recipe');
         }
         const data: Recipe[] = await response.json();
-        const foundRecipe = data.find(
-          (recipe: Recipe) => recipe.id === Number(id)
-        );
+        const foundRecipe = data.find((recipe: Recipe) => recipe.id == NumId);
 
         if (foundRecipe) {
           setRecipe(foundRecipe);

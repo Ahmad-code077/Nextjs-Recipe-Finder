@@ -3,7 +3,8 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import Navbar from '@/components/Navbar';
-
+import Footer from '@/components/Footer';
+import { Toaster } from '@/components/ui/toaster';
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -35,7 +36,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           disableTransitionOnChange
         >
           <Navbar />
-          <div className='max-w-6xl mx-auto px-4 mt-4  '>{children}</div>
+          <div className='max-w-6xl mx-auto px-4 mt-4'>{children}</div>
+          <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
