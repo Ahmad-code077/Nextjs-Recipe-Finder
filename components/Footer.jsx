@@ -1,9 +1,13 @@
 import Link from 'next/link';
-import { data } from './Navbar';
-
+const data = [
+  { id: 4, link: '/', title: 'Home' },
+  { id: 1, link: '/allrecipes', title: 'Recipes' },
+  { id: 2, link: '/about', title: 'About' },
+  { id: 3, link: '/contact', title: 'Contact' },
+];
 const Footer = () => {
   const safeData = Array.isArray(data) ? data : [];
-
+  console.log(safeData);
   return (
     <footer className='max-w-6xl mx-auto px-4 mt-4 border-t border-primary pt-6 my-4'>
       <main className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 md:gap-8'>

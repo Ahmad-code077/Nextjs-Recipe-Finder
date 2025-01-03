@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { FaBars } from 'react-icons/fa';
-import { ModeToggle } from './ModeToggle';
+// import { ModeToggle } from './ModeToggle';
 import {
   Sheet,
   SheetContent,
@@ -13,15 +13,19 @@ import {
 import { useEffect, useState } from 'react';
 import { Avatar, AvatarFallback, AvatarImage } from '@radix-ui/react-avatar';
 
-export const data = [
+const data = [
   { id: 4, link: '/', title: 'Home' },
   { id: 1, link: '/allrecipes', title: 'Recipes' },
   { id: 2, link: '/about', title: 'About' },
   { id: 3, link: '/contact', title: 'Contact' },
 ];
+interface User {
+  email: string;
+  // Add other fields if necessary
+}
 
 const Navbar = () => {
-  const [user, setUser] = useState<string | null>(null);
+  const [user, setUser] = useState<User | null>(null);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   // Handle login state and load user from localStorage
@@ -64,7 +68,10 @@ const Navbar = () => {
             })}
           </div>
           <div className='flex items-center gap-4'>
-            <ModeToggle />
+            {/* <ModeToggle /> */}
+            {user?.email === 'admin@gmail.com' && (
+              <Link href={'/admin'}>Dashboard</Link>
+            )}
             {!user ? (
               <div>
                 <Link href={'/login'}>Login</Link>
