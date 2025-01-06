@@ -23,3 +23,7 @@ npm install
 ```bash
 npm run json-server
 ```
+
+Now you are ready to run the project 
+
+Happy Coding
