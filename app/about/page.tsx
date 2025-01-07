@@ -8,9 +8,9 @@ const About: React.FC = () => {
       </h1>
       <p className='text-lg text-gray-600 dark:text-gray-300 mb-6'>
         Welcome to <strong>Recipe Finder</strong>, your ultimate destination for
-        discovering delicious recipes from all over the world! Whether you're a
-        seasoned chef or just starting in the kitchen, our goal is to provide
-        you with easy access to recipes that suit your taste, dietary
+        discovering delicious recipes from all over the world! Whether
+        you&apos;re a seasoned chef or just starting in the kitchen, our goal is
+        to provide you with easy access to recipes that suit your taste, dietary
         preferences, and cooking skills.
       </p>
 
@@ -52,8 +52,8 @@ const About: React.FC = () => {
         enthusiasts who wanted to make it easier for everyone to explore the
         culinary world. We understand the joy of discovering new flavors,
         experimenting with ingredients, and creating delicious meals to share
-        with loved ones. That's why we've built this platform to bring you a
-        wide range of recipes and make the cooking process more enjoyable.
+        with loved ones. That&apos;s why we&apos;ve built this platform to bring
+        you a wide range of recipes and make the cooking process more enjoyable.
       </p>
     </div>
   );
