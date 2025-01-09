@@ -1,14 +1,12 @@
 import { Button } from '@/components/ui/button';
-import Link from 'next/link'; // Import Link from Next.js
+import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className='text-center mt-8'>
+    <div className=' text-center mt-8'>
       <h1 className='font-bold text-5xl md:text-6xl xl:text-7xl'>
         Explore Delicious Recipes{' '}
-        <span className='text-primary dark:text-primary'>
-          with Recipe Finder
-        </span>
+        <span className='text-primary '>with Recipe Finder</span>
       </h1>
       <p className='mt-8 lg:w-2/3 text-center mx-auto'>
         Discover a world of culinary inspiration with Recipe Finder. Find

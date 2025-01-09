@@ -110,7 +110,7 @@ const AddRecipePopup: React.FC<AddRecipePopupProps> = ({
             <textarea
               placeholder='Enter instructions'
               {...register('instructions')}
-              className='w-full p-2 border rounded-lg'
+              className='w-full p-2 border rounded-lg bg-transparent'
             />
             {errors.instructions && (
               <p className='text-red-500 text-sm'>

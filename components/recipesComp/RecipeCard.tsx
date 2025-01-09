@@ -17,13 +17,13 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
         <h3 className='text-xl font-medium leading-5 truncate'>
           {recipe.title}
         </h3>
-        <p className='mt-2 text-base text-gray-600 dark:text-gray-300'>
+        <p className='mt-2 text-base text-gray-300 '>
           {recipe?.ingredients?.slice(0, 3).join(', ')}{' '}
           {recipe.ingredients.length > 3 && '...'}
         </p>
         <Link
           href={`/single/${recipe.id}`}
-          className='mt-4 text-primary dark:text-primary-400 font-semibold hover:underline'
+          className='mt-4  text-primary font-semibold hover:underline'
         >
           Read More
         </Link>

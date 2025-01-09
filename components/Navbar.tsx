@@ -112,7 +112,7 @@ const Navbar = () => {
               <SheetTrigger>
                 <FaBars className='md:hidden text-2xl' />
               </SheetTrigger>
-              <SheetContent className='dark:bg-black bg-white p-4'>
+              <SheetContent className=' bg-white p-4'>
                 <SheetHeader>
                   <SheetTitle>
                     <Link className='flex' href={'/'}>

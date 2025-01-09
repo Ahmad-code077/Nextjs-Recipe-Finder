@@ -58,12 +58,12 @@ const Recipies: React.FC = () => {
         ) : (
           <blockquote className='flex flex-col-reverse items-center justify-between w-full p-6 transition-all duration-200 rounded-lg md:flex-row ease-in-out border-primary border text-center lg:text-left'>
             <div className='flex flex-col gap-6'>
-              <h1 className='text-2xl font-medium text-gray-800 dark:text-white'>
+              <h1 className='text-2xl font-medium text-white '>
                 No Recipe Found for this
               </h1>
-              <p className='mt-2 text-base text-gray-600 dark:text-gray-300'>
-                We couldn't find any recipes matching your search. Try different
-                keywords
+              <p className='mt-2 text-base text-gray-300 '>
+                We couldn&apos;t find any recipes matching your search. Try
+                different keywords
               </p>
             </div>
           </blockquote>
